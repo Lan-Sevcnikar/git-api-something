@@ -1,5 +1,5 @@
 <template>
-  <div class="row p-4 m-0 justify-content-center">
+  <div class="row p-4 m-0 justify-content-center h-100  align-items-center">
     <div class="card col-12 col-sm-8 col-lg-4 p-3 pt-4 p-sm-5 m-3">
       <form class="text-start" @submit="checkForm">
         <div>

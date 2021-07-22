@@ -1,3 +1,5 @@
 .card{
-  box-shadow: 10px 10px;
+  border: 0;
+  border-radius: 0.7em;
+  box-shadow: 3px 3px 3px #CCCCCC;
 }

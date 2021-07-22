@@ -1,12 +1,12 @@
 <template>
-  <div class="card">
-    <div class="row justify-content-center pt-4 pb-4 bg-white">
-      <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-        <div class="row">
-          <div class="col-12 col-sm-9 m-auto text-start">
-            You are logged in as <i>{{ usersemail }}</i>
+  <div class="row justify-content-center ps-4 pe-4 pt-4 m-0 ">
+    <div class="col-12 p-1 m-0">
+      <div class="card p-2 p-4 m-2">
+        <div class="row justify-content-between bg-white">
+          <div class="col m-auto text-start ms-3">
+              <i> Logged in as </i> <b> {{usersemail}} </b>
           </div>
-          <div class="col-12 col-sm-3">
+          <div class="col d-flex justify-content-end me-3">
             <button class="btn btn-primary" @click="logout">Logout</button>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default {
     },
   },
   methods: {
-    logout: function () {
+    logout: function() {
       localStorage.setItem("userData", "{}");
       this.$router.go();
     },
@@ -36,8 +36,4 @@ export default {
 };
 </script>
 
-<style>
-.lightgray {
-  background-color: #eeeeee;
-}
-</style>
+<style></style>
