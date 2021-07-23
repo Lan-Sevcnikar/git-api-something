@@ -1,5 +1,68 @@
 .card{
-  border: 0;
-  border-radius: 0.7em;
-  box-shadow: 3px 3px 3px #CCCCCC;
+  border: 0 !important;
+  border-radius: 0 !important; 
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+html, body{
+  height: 100%;
+  padding: 0 !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row, .col {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+
+#app {
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  height: 100vh !important;
+  background-color: white;
+}
+
+/*
+primary-background-color-light
+secondary-background-color-light
+terciary-background-color-light
+text-background-color-light
+
+primary-background-color-dark
+secondary-background-color-dark
+terciary-background-color-dark
+text-background-color-dark
+
+#D8DBE2
+#373F41
+#1B1B1E
+#F8F6F2
+*/
+
+.pbc{
+  background-color: #FFFFFF !important;
+}
+
+.sbc{
+  background-color: #EDEDED !important;
+}
+
+.tbc{
+  background-color: #C0C0C0 !important;
+}
+
+.qbc{
+  background-color: #999999 !important;
+}
+
+.txc {
+  color: #000000 !important;
+}
+
+.tx{
+  font-family: roboto;
 }
