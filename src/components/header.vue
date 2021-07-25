@@ -1,5 +1,5 @@
 <template>
-  <div class="row justify-content-between tbc m-0">
+  <div class="row justify-content-between tbc m-0" style="border-radius: .0em;">
     <div class="col text-start m-3 h5">
       Lan Sevčnikar 
     </div>
