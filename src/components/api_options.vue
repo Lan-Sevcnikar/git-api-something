@@ -1,6 +1,6 @@
 <template>
   <div
-    style="cursor: alias;"
+    style="cursor: pointer;"
     class="text-start mt-0 mb-4 p-2 ps-3"
     :class="{ sbc : hover, isBeingHoverOver: hover }"
     @click="callApi"
