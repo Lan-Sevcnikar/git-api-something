@@ -1,10 +1,10 @@
 <template>
   <div class="row justify-content-between tbc m-0" style="border-radius: .0em;">
     <div class="col text-start m-3 h5">
-      Lan Sevčnikar 
+      Lan Sevčnikar
     </div>
     <div class="col d-flex justify-content-end m-3">
-      Buttons go here
+      <span class="dot" v-for="i in new Array(3)" :key="i" :class="'ms-2'"></span>
     </div>
   </div>
 </template>
@@ -33,4 +33,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
